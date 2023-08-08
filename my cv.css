@@ -65,3 +65,13 @@ header {
         border-radius: 50%;
         color: white;
   }
+
+  video {
+    text-align: left;
+    float: left;
+      margin-right: 20px;
+      width: 30%;
+      margin-right: 100%;
+      margin-left: 70px;
+      margin-bottom: 20px;
+  }
