@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Request Submission</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #EEA47F;
+      color: #00539C;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    .form-textarea {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+
+    .form-submit {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      background-color: #00539C;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .form-submit:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Request Submission</h1>
+    <form action="sendsdd_email.php" method="post">
+      <div class="form-group">
+        <label for="name" class="form-label">Your Name:</label>
+        <input type="text" id="name" name="name" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email Address:</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message:</label>
+        <textarea id="message" name="message" class="form-textarea" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">Submit Request</button>
+    </form>
+  </div>
+</body>
+</html>

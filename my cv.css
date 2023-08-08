@@ -1,0 +1,67 @@
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+    border: 10px blue solid;
+    font-size: 50px;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+  }
+  #hiso{
+    text-align: left;
+    color: #00539C;
+    font-size: 23px;
+  }
+  body{
+    background-color: #EEA47F;
+  }
+  li{
+    margin-left: 70px;
+    text-align: left;
+    color: #00539C;
+    font-size: 23px;
+  }
+  h1{
+    margin-left: 30px;
+    color:blueviolet ;
+  }
+
+  footer {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    }
+
+  .fa-linkedin-square {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color:#00539C;
+        }
+
+  .fa-youtube-play {
+    padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: red;
+  }
+  .fa-google {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        color: white;
+  }
